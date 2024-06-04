@@ -16,8 +16,6 @@ path='C:/Users/yourusername/Desktop/'
 
 p = Playlist(link)
 
-for video in p.videos:
-    print(video.watch_url)
 
 if index == 0 :
     for video in p.videos:
